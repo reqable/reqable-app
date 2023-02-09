@@ -1,5 +1,5 @@
 # Reqable
-Reqable是一款跨平台的专业HTTP开发和调试工具，桌面版将于今年3月开始Beta测试，欢迎各位开发者参与产品体验！
+Reqable是一款跨平台的专业HTTP开发和调试工具，桌面版将于今年3月开始Beta测试，欢迎各位开发者参与[产品体验](https://reqable.com/)！  
 
 ## 平台
 Reqable基于Flutter开发，计划支持Windows/Mac/Linux/Android/iOS平台。
