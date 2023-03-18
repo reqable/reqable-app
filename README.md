@@ -8,7 +8,7 @@ Reqable使用Flutter和C++开发，计划支持Windows/Mac/Linux/Android/iOS平�
 https://reqable.com
 
 ## Beta测试
-第一轮Beta测试已经结束报名，第二轮Beta测试开启时我们会在这里公布报名链接，感谢您的关注！
+👏👏👏第一轮Beta测试已经结束报名，第二轮Beta测试开启时我们会在这里公布报名链接，感谢您的关注！
 
 ## 交流
 
