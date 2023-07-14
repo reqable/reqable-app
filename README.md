@@ -8,3 +8,5 @@ Reqable是一款跨平台的专业HTTP开发和调试工具，在全平台支持
 
 Reqable使用Flutter和C++开发，已支持Windows/Mac/Linux平台，计划支持/Android/iOS平台。欢迎访问我们的网站查看更多细节：
 https://reqable.com
+
+⚠️ 注意：Reqable是非开源项目，本仓库仅用来管理需求和用户反馈。
