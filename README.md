@@ -15,4 +15,4 @@ https://reqable.com
 
 加我微信，拉你进群
 
-<img src="/arts/wechat.png" alt="微信二维码" width="300" height="200" />
+<img src="/arts/wechat.png" alt="微信二维码" width="240" height="240" />
