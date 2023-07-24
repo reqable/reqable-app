@@ -4,7 +4,7 @@
 
 [Reqable](https://reqable.com/) is modern cross-platform project, designed for API development, testing and debugging. Reqable fully supports HTTP1 and HTTP2, and partially supports HTTP3(QUIC).
 
-⚠️⚠️⚠️ Note: Reqable is a non-open source project, and this repository is only used to manage requirements and user feedback.
+⚠️ Note: Reqable is a non-open source project, and this repository is only used to manage requirements and user feedback.
 
 Offical website: https://reqable.com
 
@@ -16,13 +16,13 @@ The features of Reqable are simple, beautiful, free, no login is required, and i
 - 11 different accent colors are supported.
 - Support `Atom One` code highlighting.
 
-## Desktop
+## Desktop App
 
 The Reqable desktop supports Windows/Mac/Linux, and integrates API debugging and API testing. You can think of it as Fiddler/Charles + Postman.
 
 Reqable breaks down the barrier between API debugging and testing. For example, APIs can be created from recording list, and recording can also be performed during API testing.
 
-### API Debugging
+#### 1. API Debugging
 
 Reqable uses the classic MITM proxy method for debugging, and supports such as rewriting, scripting (Python), breakpoints, and replay.
 
@@ -47,7 +47,7 @@ Real machine screenshot:
 
 ![](/arts/screenshot_en_01.png)
 
-### API Testing
+#### 2. API Testing
 
 Reqable can compose API for testing, also supports features such as API collection and history.
 
@@ -65,6 +65,6 @@ Real machine screenshot:
 
 ![](/arts/screenshot_en_02.png)
 
-## Mobile
+## Mobile App
 
 Reqable plans to launch standalone mobile app. But I am currently still focusing on the desktop, the development of the mobile app will start as early as September, it depends on the progress of the desktop. Reqable is developed using Flutter and C++, and needs to be adapted to some specific platforms and interactive methods. I believe that the first version of the mobile app will be released soon.

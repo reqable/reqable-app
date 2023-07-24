@@ -2,7 +2,7 @@
 
 [Reqable](https://reqable.com/)是一款跨平台的专业HTTP开发和调试工具，在全平台支持HTTP1、HTTP2和HTTP3(QUIC)协议，简单易用、功能强大、性能高效，助力程序开发和测试人员提高生产力！
 
-⚠️⚠️⚠️ 注意：Reqable是非开源项目，本仓库仅用来管理需求和用户反馈。
+⚠️ 注意：Reqable是非开源项目，本仓库仅用来管理需求和用户反馈。
 
 官方网站：https://reqable.com
 
@@ -20,7 +20,7 @@ Reqable桌面端支持 Windows/Mac/Linux 三大主流平台，具备抓包调试
 
 Reqable打通了API调试和测试之间的壁垒，例如可以从抓包数据中创建API进行测试，也可以在API测试时进行流量抓包分析。
 
-### 流量抓包
+#### 1. 流量抓包
 
 Reqable采用经典的MITM代理方式进行流量分析，支持重写、脚本（Python）、断点和重放等功能。
 
@@ -45,7 +45,7 @@ Reqable采用经典的MITM代理方式进行流量分析，支持重写、脚本
 
 ![](/arts/screenshot_zh_01.png)
 
-### API测试
+#### 2. API测试
 
 Reqable可以编辑和发送HTTP请求，用来测试API接口，同时还支持API集合存储和历史记录等功能。
 
