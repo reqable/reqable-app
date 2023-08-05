@@ -4,7 +4,7 @@
 
 [Reqable](https://reqable.com/) is modern cross-platform project, designed for API development, testing and debugging. Reqable fully supports HTTP1 and HTTP2, and partially supports HTTP3(QUIC).
 
-⚠️ Note: Reqable is a non-open source project, and this repository is only used to manage requirements and user feedback.
+⚠️ **Note: Reqable is a non-open source project, and this repository is only used to manage requirements and user feedback.**
 
 Offical website: https://reqable.com
 
