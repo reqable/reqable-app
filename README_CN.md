@@ -2,7 +2,7 @@
 
 [Reqable](https://reqable.com/)是一款跨平台的专业HTTP开发和调试工具，在全平台支持HTTP1、HTTP2和HTTP3(QUIC)协议，简单易用、功能强大、性能高效，助力程序开发和测试人员提高生产力！
 
-⚠️ 注意：Reqable是非开源项目，本仓库仅用来管理需求和用户反馈。
+⚠️ **注意：Reqable是非开源项目，本仓库仅用来管理需求和用户反馈。**
 
 官方网站：https://reqable.com
 
