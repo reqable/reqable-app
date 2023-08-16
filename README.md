@@ -28,19 +28,19 @@ Reqable uses the classic MITM proxy method for debugging and supports such as re
 
 - [x] Support HTTP/1.x and HTTP2 protocol, HTTP3 (QUIC) is not supported yet.
 - [x] Support HTTP/HTTPS/Socks4/Socks4a/Socks5 proxy mode.
-- [x] Support HTTPS, TLSv1.1, TLSv1.2 and TLSv1.3 protocols。
+- [x] Support HTTPS, TLSv1.1, TLSv1.2 and TLSv1.3 protocols.
 - [x] Support WebSocket upgraded based on HTTP1.
 - [x] Support HTTP/HTTPS secondary proxy.
-- [x] Search and filter: Different filtering methods, such as bookmarks, domains, quick filter, and searchs with multiple conditions。
+- [x] Search and filter: Different filtering methods, such as bookmarks, domains, quick filter, and searchs with multiple conditions.
 - [x] Gateway: Perform operations such as shielding and suspending for requests or responses.
 - [x] Rewriting: Perform redirection, map local, map remote, modification for requests or responses.
 - [x] Breakpoint: Perform real-time breakpoint operations on requests or responses.
-- [x] Scripting: Support for writing Python scripts to process requests or responses。
-- [x] Mirroring: Configure mirror mapping for the specified domain name and port。
+- [x] Scripting: Support for writing Python scripts to process requests or responses.
+- [x] Mirroring: Configure mirror mapping for the specified domain name and port.
 - [x] API testing: Compose APIs from the recording list.
 - [x] History: Automatically save the recording list for easy retrospective viewing.
 - [x] Replay: Support single or multiple requests for playback testing.
-- [x] Auto-Highlighting: Support preset rules to highlight requests。
+- [x] Auto-Highlighting: Support preset rules to highlight requests.
 - [x] HAR: Automatically associate HAR files, and support HAR export and open.
 
 Real machine screenshot:
