@@ -2,6 +2,8 @@
 
 [Reqable](https://reqable.com/)是一款跨平台的专业HTTP开发和调试工具，在全平台支持HTTP1、HTTP2和HTTP3(QUIC)协议，简单易用、功能强大、性能高效，助力程序开发和测试人员提高生产力！
 
+![](https://reqable.com/en-US/img/reqable-social-card.jpg)
+
 ⚠️ **注意：Reqable是非开源项目，本仓库仅用来管理需求和用户反馈。**
 
 官方网站：https://reqable.com
@@ -43,7 +45,7 @@ Reqable采用经典的MITM代理方式进行流量分析，支持重写、脚本
 
 实测截图：
 
-![](/arts/screenshot_zh_01.png)
+![](https://reqable.com/zh-CN/assets/images/capture-b83e81418424a3d474dc79673a1dfbd2.png)
 
 #### 2. API测试
 
@@ -61,7 +63,7 @@ Reqable可以编辑和发送HTTP请求，用来测试API接口，同时还支持
 
 实测截图：
 
-![](/arts/screenshot_zh_02.png)
+![](https://reqable.com/zh-CN/assets/images/rest-8000a6dcc1cd34874c852136e4113b40.png)
 
 ## 移动端
 
@@ -69,6 +71,6 @@ Reqable计划推出独立的移动端应用。但是我目前的工作重心仍�
 
 ## 交流反馈
 
-加我微信（备注加群），拉你进群。
+加我微信，拉你进群。
 
 <img src="/arts/wechat.png" alt="微信二维码" width="240" height="240" />
