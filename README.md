@@ -47,7 +47,7 @@ Reqable uses the classic MITM proxy method for debugging and supports such as re
 
 Real machine screenshot:
 
-![](https://reqable.com/en-US/assets/images/capture-b83e81418424a3d474dc79673a1dfbd2.png)
+![](/arts/screenshot_en_01.png)
 
 #### 2. API Testing
 
@@ -65,7 +65,7 @@ Reqable can compose API for testing and also supports features such as API colle
 
 Real machine screenshot:
 
-![](https://reqable.com/en-US/assets/images/rest-8000a6dcc1cd34874c852136e4113b40.png)
+![](/arts/screenshot_en_02.png)
 
 ## Mobile App
 
