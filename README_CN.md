@@ -73,4 +73,4 @@ Reqable计划推出独立的移动端应用。但是我目前的工作重心仍�
 
 加我微信，拉你进群。
 
-<img src="/arts/wechat.png" alt="微信二维码" width="240" height="240" />
+<img src="https://reqable.com/zh-CN/img/wechat_qrcode.jpg" alt="微信二维码" width="240" height="240" />
