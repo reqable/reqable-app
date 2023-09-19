@@ -86,7 +86,7 @@ brew install reqable
 
 ### Linux安装
 
-Linux版本以来GTK库，安装前请确认系统是否已经安装了GTK。Linux安装程序是deb文件，我们目前只提供了x64的架构版本，使用apt安装即可:
+Linux版本依赖GTK库，安装前请确认系统是否已经安装了GTK。Linux安装程序是deb文件，我们目前只提供了x64的架构版本，使用apt安装即可:
 ```shell
 sudo apt install reqable-app-linux-x86_64.deb
 ```
