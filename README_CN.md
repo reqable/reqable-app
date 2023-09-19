@@ -1,10 +1,10 @@
 # Reqable
 
+⚠️ **注意：Reqable是非开源项目，本仓库仅用来管理需求和用户反馈。**
+
 [Reqable](https://reqable.com/)是一款跨平台的专业HTTP开发和调试工具，在全平台支持HTTP1、HTTP2和HTTP3(QUIC)协议，简单易用、功能强大、性能高效，助力程序开发和测试人员提高生产力！
 
 ![](https://reqable.com/en-US/img/reqable-social-card.jpg)
-
-⚠️ **注意：Reqable是非开源项目，本仓库仅用来管理需求和用户反馈。**
 
 官方网站：https://reqable.com
 
@@ -22,7 +22,7 @@ Reqable桌面端支持 Windows/Mac/Linux 三大主流平台，具备抓包调试
 
 Reqable打通了API调试和测试之间的壁垒，例如可以从抓包数据中创建API进行测试，也可以在API测试时进行流量抓包分析。
 
-#### 1. 流量抓包
+### 1. 流量抓包
 
 Reqable采用经典的MITM代理方式进行流量分析，支持重写、脚本（Python）、断点和重放等功能。
 
@@ -47,7 +47,7 @@ Reqable采用经典的MITM代理方式进行流量分析，支持重写、脚本
 
 ![](https://reqable.com/zh-CN/assets/images/capture-b83e81418424a3d474dc79673a1dfbd2.png)
 
-#### 2. API测试
+### 2. API测试
 
 Reqable可以编辑和发送HTTP请求，用来测试API接口，同时还支持API集合存储和历史记录等功能。
 
@@ -68,6 +68,28 @@ Reqable可以编辑和发送HTTP请求，用来测试API接口，同时还支持
 ## 移动端
 
 Reqable计划推出独立的移动端应用。但是我目前的工作重心仍然放在桌面端（积累了较多的需求和缺陷），最快将在9月份启动移动端的开发工作。由于Reqable是使用Flutter和C++进行开发的，需要完成一些特定平台和交互方式的适配，相信移动端很快便能够出第一版。
+
+## 下载和安装
+
+Reqable官网提供了最新版本的下载：[点我查看](https://reqable.com/zh-CN/download)。如果希望下载历史版本：[点击这里](https://github.com/reqable/reqable-app/releases)。此外，在Mac系统上，Reqable提供了`Homebrew`的安装方式。
+
+### Windows安装
+
+在Windows上，您下载的是`Setup.exe`，按照Setup安装程序指引即可。目前未提供绿色版本，主要是因为Reqable安装需要写注册表（关联har等文件格式）。
+
+### Mac安装
+
+在Mac设备上，Reqable提供了Apple芯片和Intel芯片两种架构的安装包。如果下载DMG文件，打开后拖拽进`应用程序`文件夹即可；如果是使用`Homebrew`，输入下面命令行即可自动安装：
+```shell
+brew install reqable
+```
+
+### Linux安装
+
+Linux版本以来GTK库，安装前请确认系统是否已经安装了GTK。Linux安装程序是deb文件，我们目前只提供了x64的架构版本，使用apt安装即可:
+```shell
+sudo apt install reqable-app-linux-x86_64.deb
+```
 
 ## 交流反馈
 
