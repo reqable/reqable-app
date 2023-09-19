@@ -2,11 +2,11 @@
 
 [中文版本](./README_CN.md)
 
+⚠️ **Note: Reqable is a non-open source project, and this repository is only used to manage requirements and user feedback.**
+
 [Reqable](https://reqable.com/) is a modern cross-platform project, designed for API development, testing, and debugging. Reqable fully supports HTTP1 and HTTP2 and partially supports HTTP3(QUIC).
 
 ![](https://reqable.com/en-US/img/reqable-social-card.jpg)
-
-⚠️ **Note: Reqable is a non-open source project, and this repository is only used to manage requirements and user feedback.**
 
 Official website: https://reqable.com
 
@@ -24,7 +24,7 @@ The Reqable desktop supports Windows/Mac/Linux and integrates API debugging and 
 
 Reqable breaks down the barrier between API debugging and testing. For example, APIs can be created from a recording list, and recording can also be performed during API testing.
 
-#### 1. API Debugging
+### 1. API Debugging
 
 Reqable uses the classic MITM proxy method for debugging and supports such as rewriting, scripting (Python), breakpoints, and replay.
 
@@ -49,7 +49,7 @@ Real machine screenshot:
 
 ![](/arts/screenshot_en_01.png)
 
-#### 2. API Testing
+### 2. API Testing
 
 Reqable can compose API for testing and also supports features such as API collection and history.
 
@@ -70,3 +70,28 @@ Real machine screenshot:
 ## Mobile App
 
 Reqable plans to launch a standalone mobile app. But I am currently still focusing on the desktop, the development of the mobile app will start as early as September, it depends on the progress of the desktop. Reqable is developed using Flutter and C++ and needs to be adapted to some specific platforms and interactive methods. I believe that the first version of the mobile app will be released soon.
+
+## Installation
+
+Reqable official website provides the download of the latest version: [Download Now](https://reqable.com/en-US/download). If you want to download the historical version: [Click here](https://github.com/reqable/reqable-app/releases). In addition, on Mac, Reqable provides the `Homebrew` installation.
+
+### Windows Setup
+
+On Windows, you download `Setup.exe` and just follow the setup installation program instructions. There is currently no installation-free version available, mainly because Reqable installation requires writing the registry (associated with `har` and other file formats).
+
+### Mac Setup
+
+On Mac, Reqable provides installation packages for both Apple chip and Intel chip. If you download the DMG file, open it and drag app into the `Applications` folder; if you are using `Homebrew`, please try this command:
+```shell
+brew install reqable
+```
+
+### Linux Setup
+
+The Linux version requires the GTK library. Please confirm whether the system has GTK installed before installation. The Linux installation program is a deb file. We currently only provide the x64 architecture version. You can install it using `apt`:
+```shell
+sudo apt install reqable-app-linux-x86_64.deb
+```
+
+## Documentation
+https://reqable.com/en-US/docs/introduction
