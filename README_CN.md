@@ -91,6 +91,9 @@ Linux版本以来GTK库，安装前请确认系统是否已经安装了GTK。Lin
 sudo apt install reqable-app-linux-x86_64.deb
 ```
 
+## 使用文档
+https://reqable.com/zh-CN/docs/introduction
+
 ## 交流反馈
 
 加我微信，拉你进群。
