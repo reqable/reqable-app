@@ -41,8 +41,10 @@ Reqable uses the classic MITM proxy method for debugging and supports such as re
 - [x] Mirroring: Configure mirror mapping for the specified domain name and port.
 - [x] API testing: Compose APIs from the recording list.
 - [x] History: Automatically save the recording list for easy retrospective viewing.
+- [x] Diff tool: Compare request and response messages, quickly locate data deviations.
 - [x] Replay: Support single or multiple requests for playback testing.
-- [x] Auto-Highlighting: Support preset rules to highlight requests.
+- [x] Reverse proxy: Use local reverse proxy server to debug HTTPS traffics without trusting CA certificate.
+- [x] Traffic source: Detect which application the traffic is coming from.
 - [x] HAR: Automatically associate HAR files, and support HAR export and open.
 
 Real machine screenshot:
@@ -54,6 +56,7 @@ Real machine screenshot:
 Reqable can compose API for testing and also supports features such as API collection and history.
 
 - [x] Supports HTTP/1.1, HTTP2 and HTTP3 (QUIC) protocols.
+- [x] API collection: Save API to collections, or import collections from Postman and Hoppscotch.
 - [x] Multiple sessions: Support creating multiple Tabs for API testing.
 - [x] Batch editing: Support batch editing of query parameters, request headers, forms, etc.
 - [x] Authorization settings: Support authorization methods such as API KEY, Basic Auth, and Bearer Token.
@@ -69,7 +72,22 @@ Real machine screenshot:
 
 ## Mobile App
 
-Reqable plans to launch a standalone mobile app. But I am currently still focusing on the desktop, the development of the mobile app will start as early as September, it depends on the progress of the desktop. Reqable is developed using Flutter and C++ and needs to be adapted to some specific platforms and interactive methods. I believe that the first version of the mobile app will be released soon.
+The Reqable mobile app can be used standalone or work with the desktop app. Standalone means that traffic recording and API testing can be performed independently without relying on the desktop. While in collaborative mode, the mobile app could automatically forward traffic to the desktop by scanning the desktop QR code without manually configuring the Wifi proxy.
+
+#### Android
+
+The Android version has been basically completed and is currently open for beta-testing, see [Github Release v2.0.0](https://github.com/reqable/reqable-app/releases). In order to limit the number of testers, it is only open to accounts with the annual license. Android implements most of the features on the desktop, except for some with legal risks, such as rewriting.
+
+- On devices not lower than Android Q (API 29), Reqable Magic Service is an optional. Reqable will try to use the system api, but will not be able to detect the source app of the traffic belongs, and it may not be able to capture all the traffic. 
+- On devices lower than Android Q, the Reqable Magic Service is required, and recording cannot be enabled without installed.
+
+Real machine screenshot:
+
+![](/arts/screenshot_en_03.png)
+
+#### iOS
+
+The iOS version is still under preparation and will be open for beta-testing soon.
 
 ## Installation
 
