@@ -69,25 +69,6 @@ Reqable可以编辑和发送HTTP请求，用来测试API接口，同时还支持
 
 ![](https://reqable.com/zh-CN/assets/images/rest-8000a6dcc1cd34874c852136e4113b40.png)
 
-## 移动端
-
-Reqable移动端支持单独使用，也支持与桌面端协同使用。独立使用指的是可以单独进行流量分析、API请求测试，无需依赖桌面端；而协同模式下，移动端可以通过扫描桌面端的二维码后自动将流量转发到桌面端，无需手动配置Wifi代理，后续操作在桌面端进行。
-
-#### Android
-
-Android版本已经基本完成，目前已经开放内测，测试安装包见[Github Release v2.0.0](https://github.com/reqable/reqable-app/releases)。为了限制内测人数，仅对拥有年度许可证的用户开放。Android支持桌面端绝大多数功能，除了调试功能担心引起滥用暂未开放。
-
-- 在不低于Android Q的系统版本，可以不依赖辅助服务应用直接分析流量，但是无法获悉流量所属应用也可能无法捕获到所有流量。可以通过安装辅助服务应用并启用来解决上面的问题。
-- 在低于Android Q的系统版本，必须安装辅助服务应用，否则无法分析应用流量。
-
-实测截图：
-
-![](/arts/screenshot_zh_03.png)
-
-#### iOS
-
-iOS版本仍然在准备中，不久将会开放内测。
-
 ## 下载和安装
 
 Reqable官网提供了最新版本的下载：[点我查看](https://reqable.com/zh-CN/download)。如果希望下载历史版本：[点击这里](https://github.com/reqable/reqable-app/releases)。此外，在Mac系统上，Reqable提供了`Homebrew`的安装方式。
@@ -109,6 +90,27 @@ Linux版本依赖GTK库，安装前请确认系统是否已经安装了GTK。Lin
 ```shell
 sudo apt install reqable-app-linux-x86_64.deb
 ```
+
+## 移动端
+
+Reqable移动端支持单独使用，也支持与桌面端协同使用。独立使用指的是可以单独进行流量分析、API请求测试，无需依赖桌面端；而协同模式下，移动端可以通过扫描桌面端的二维码后自动将流量转发到桌面端，无需手动配置Wifi代理，后续操作在桌面端进行。
+
+为了限制内测人数，仅对拥有**年度订阅许可证**的用户开放。移动端支持桌面端绝大多数功能，除了调试功能担心引起滥用暂未上线。
+
+#### Android
+
+Android版本已经基本完成，目前已经开放内测，测试安装包见[Github Release v2.0.0](https://github.com/reqable/reqable-app/releases)。
+
+- 在不低于Android Q的系统版本，可以不依赖辅助服务应用直接分析流量，但是无法获悉流量所属应用也可能无法捕获到所有流量。可以通过安装辅助服务应用并启用来解决上面的问题。
+- 在低于Android Q的系统版本，必须安装辅助服务应用，否则无法分析应用流量。
+
+实测截图：
+
+![](/arts/screenshot_zh_03.png)
+
+#### iOS
+
+从Testflight安装应用：https://testflight.apple.com/join/xEOIqtAm
 
 ## 使用文档
 https://reqable.com/zh-CN/docs/introduction
