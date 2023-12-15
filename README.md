@@ -96,22 +96,16 @@ sudo apt install reqable-app-linux-x86_64.deb
 
 The Reqable mobile can be used standalone or work with the desktop app. Standalone means that traffic recording and API testing can be performed independently without relying on the desktop. While in collaborative mode, the mobile app could automatically forward traffic to the desktop by scanning the desktop QR code without manually configuring the Wifi proxy.
 
-In order to limit the number of testers, it is only open to accounts with the annual license. Mobile app implements most of the features on the desktop, except for some with legal risks, such as rewriting.
+Mobile app implements most of the features on the desktop, except for some with legal risks, such as rewriting.
+
+Get app for free from play store and app store.
+
+<a href="https://play.google.com/store/apps/details?id=com.reqable.android"><img src="arts/play_store.svg" height="48"></a>
+<a href="https://apps.apple.com/app/id6473166828"><img src="arts/app_store.svg" height="48"></a>
 
 Real machine screenshots:
 
 ![](/arts/screenshot_en_03.png)
-
-#### Android
-
-The Android version has been basically completed and is currently open for beta-testing, see [Github Release v2.0.0](https://github.com/reqable/reqable-app/releases).
-
-- On devices not lower than Android Q (API 29), Reqable Magic Service is an optional. Reqable will try to use the system api, but will not be able to detect the source app of the traffic belongs, and it may not be able to capture all the traffic. 
-- On devices lower than Android Q, the Reqable Magic Service is required, and recording cannot be enabled without installed.
-
-#### iOS
-
-The iOS app is now available on Testflight: https://testflight.apple.com/join/xEOIqtAm
 
 ## Documentation
 https://reqable.com/en-US/docs/introduction
