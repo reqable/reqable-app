@@ -93,24 +93,17 @@ sudo apt install reqable-app-linux-x86_64.deb
 
 ## 移动端
 
-Reqable移动端支持单独使用，也支持与桌面端协同使用。独立使用指的是可以单独进行流量分析、API请求测试，无需依赖桌面端；而协同模式下，移动端可以通过扫描桌面端的二维码后自动将流量转发到桌面端，无需手动配置Wifi代理，后续操作在桌面端进行。
+Reqable移动端支持单独使用，也支持与桌面端协同使用。独立使用指的是可以单独进行流量分析、API请求测试，无需依赖桌面端；而协同模式下，移动端可以通过扫描桌面端的二维码后自动将流量转发到桌面端，无需手动配置Wifi代理，后续操作在桌面端进行。移动端支持桌面端绝大多数功能，除了调试功能担心引起滥用暂未上线。
 
-为了限制内测人数，仅对拥有**年度订阅许可证**的用户开放。移动端支持桌面端绝大多数功能，除了调试功能担心引起滥用暂未上线。
+可以从Play Store和App Store免费获取应用。
 
-#### Android
-
-Android版本已经基本完成，目前已经开放内测，测试安装包见[Github Release v2.0.0](https://github.com/reqable/reqable-app/releases)。
-
-- 在不低于Android Q的系统版本，可以不依赖辅助服务应用直接分析流量，但是无法获悉流量所属应用也可能无法捕获到所有流量。可以通过安装辅助服务应用并启用来解决上面的问题。
-- 在低于Android Q的系统版本，必须安装辅助服务应用，否则无法分析应用流量。
+<a href="https://play.google.com/store/apps/details?id=com.reqable.android"><img src="arts/play_store.svg" height="48"></a>
+<a href="https://apps.apple.com/app/id6473166828"><img src="arts/app_store.svg" height="48"></a>
 
 实测截图：
 
 ![](/arts/screenshot_zh_03.png)
 
-#### iOS
-
-从Testflight安装应用：https://testflight.apple.com/join/xEOIqtAm
 
 ## 使用文档
 https://reqable.com/zh-CN/docs/introduction
