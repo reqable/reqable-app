@@ -4,7 +4,7 @@
 
 ⚠️ **Note: Reqable is a non-open source project, and this repository is only used to manage requirements and user feedback.**
 
-[Reqable](https://reqable.com/) is a modern cross-platform project, designed for API development, testing, and debugging. Reqable fully supports HTTP1 and HTTP2 and partially supports HTTP3(QUIC). Now available on Windows, Mac, Linux, Android and iOS.
+[Reqable](https://reqable.com/) is a modern cross-platform project, designed for API development, testing, and debugging. Reqable fully supports HTTP1 and HTTP2 and partially supports HTTP3(QUIC). Now available on `Windows`, `Mac`, `Linux`, `Android` and `iOS`.
 
 ![](https://reqable.com/en-US/img/reqable-social-card.jpg)
 
