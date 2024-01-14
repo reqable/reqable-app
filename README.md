@@ -10,13 +10,20 @@
 
 Official website: https://reqable.com
 
-The features of Reqable are simple, beautiful, free, no login is required, and it can be used immediately after installation.
+The features of Reqable are small, fast, beautiful, free, no login is required, and it can be used immediately after installation.
 
 - The volume of the installation package is about 20M.
 - Cross-platform, based on Flutter and C++ development.
 - Both light and dark theme modes are supported.
-- 11 different accent colors are supported.
-- Support `Atom One` code highlighting.
+- 11 different accent colors and 15+ code highlighting colors.
+
+## Benchmark
+
+Reqable is developed based on Flutter and C++ and has great performance advantages compared to similar products.
+
+![](./arts//benchmark_en_01.png)
+
+*The above data was tested on a MacBook Pro 2017. The startup time is calculated by calculating the frame offsets after recording the screen. The memory usage is calculated by after moving the app to the background.*
 
 ## Desktop App
 
