@@ -115,6 +115,10 @@ Reqable移动端支持单独使用，也支持与桌面端协同使用。独立�
 ## 使用文档
 https://reqable.com/zh-CN/docs/introduction
 
+## 致谢
+- [leanflutter](https://github.com/leanflutter)
+- [highlightjs](https://github.com/highlightjs/highlight.js)
+
 ## 交流反馈
 
 加我微信，拉你进群。
