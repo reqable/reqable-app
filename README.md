@@ -116,3 +116,8 @@ Real machine screenshots:
 
 ## Documentation
 https://reqable.com/en-US/docs/introduction
+
+## Thanks
+
+- [leanflutter](https://github.com/leanflutter)
+- [highlightjs](https://github.com/highlightjs/highlight.js)
