@@ -6,7 +6,7 @@
 
 [Reqable](https://reqable.com/) is a modern cross-platform project, designed for API development, testing, and debugging. Reqable fully supports HTTP1 and HTTP2 and partially supports HTTP3(QUIC). Now available on `Windows`, `Mac`, `Linux`, `Android` and `iOS`.
 
-![](https://reqable.com/en-US/img/reqable-social-card.jpg)
+![](./arts/products.webp)
 
 Official website: https://reqable.com
 
@@ -21,7 +21,7 @@ The features of Reqable are small, fast, beautiful, free, no login is required, 
 
 Reqable is developed based on Flutter and C++ and has great performance advantages compared to similar products.
 
-![](./arts//benchmark_en_01.png)
+![](./arts/benchmark_en_01.png)
 
 *The above data was tested on a MacBook Pro 2017. The startup time is calculated by calculating the frame offsets after recording the screen. The memory usage is calculated by after moving the app to the background.*
 
