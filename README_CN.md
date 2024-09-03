@@ -113,9 +113,3 @@ https://reqable.com/zh-CN/docs/introduction
 ## 致谢
 - [leanflutter](https://github.com/leanflutter)
 - [highlightjs](https://github.com/highlightjs/highlight.js)
-
-## 交流反馈
-
-加我微信，拉你进群。
-
-<img src="https://reqable.com/zh-CN/img/wechat_qrcode.jpg" alt="微信二维码" width="240" height="240" />
